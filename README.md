@@ -14,13 +14,9 @@ React-router-dom
 
 Back End(into server directory) installation packages(npm i "package")
 
-Note: Deployed app is live but does not show visual
 
 Bcrypt Mongoose Express JsonWebToken Dotenv
 
-// Issues
-
-No known issues to date
 
 //API Endpoints
 
@@ -30,9 +26,15 @@ GET /workouts --> Gets all the workout documents POST /workouts --> Creates a ne
 
 Hopefully in the future developement of this app users will be able to interact with other users. Whether it's seeing other workouts posted from other users or being able to leave comments on workouts and spreading ideas. "My Fitness Tracker" has a goal to spread positivty in the health and fitness community alike for users through the means of a social-online interaction.
 
+// Issues
+
+Deployed app is live but does not show visual.
+
+
 // Developers for this Project
 
 Heriberto Delgado Frank Ortiz Jaylin Manuel
 
 static frontend https://my-fitness-tracker-1.onrender.com
 back-end https://my-fitness-tracker.onrender.com
+
