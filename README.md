@@ -14,6 +14,8 @@ React-router-dom
 
 Back End(into server directory) installation packages(npm i "package")
 
+Note: Deployed app is live but does not show visual
+
 Bcrypt Mongoose Express JsonWebToken Dotenv
 
 // Issues
