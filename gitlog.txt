@@ -1,0 +1,131 @@
+commit e4761fe3d9c1bd648ab3c906e6fc9899381ec36e
+Author: Heriberto Delgado Jr <heribertodelgado92@gmail.com>
+Date:   Mon Oct 30 21:18:58 2023 -0700
+
+    Final Edits
+
+commit 74fab5e7dbd4833eb942172d4afa2da0b06c09a8
+Author: Heriberto Delgado Jr <heribertodelgado92@gmail.com>
+Date:   Mon Oct 30 21:18:08 2023 -0700
+
+    Final comments
+
+commit a6b3c0054213ad9e8336c22a7f3d6f9694c129a6
+Author: Heriberto Delgado Jr <heribertodelgado92@gmail.com>
+Date:   Mon Oct 30 20:19:48 2023 -0700
+
+    fixing last bugs and adding links to site
+
+commit e38955e8ee370c4d6c9b5406950a7efac6d6f1b1
+Author: Heriberto Delgado Jr <heribertodelgado92@gmail.com>
+Date:   Mon Oct 30 00:06:39 2023 -0700
+
+    Src
+
+commit 5cb42a1a4e83372e735e88cf7554ba7f45bff1da
+Author: Heriberto Delgado Jr <heribertodelgado92@gmail.com>
+Date:   Sun Oct 29 20:45:24 2023 -0700
+
+    Last Touches
+
+commit 0ba79e452a042e53edf83c8e36184fba4dcd1b96
+Author: Heriberto Delgado Jr <heribertodelgado92@gmail.com>
+Date:   Sun Oct 29 20:12:38 2023 -0700
+
+    ReadMe
+
+commit 138c42c44ea08b7127ab11cba2fce7010f8ae64e
+Author: Heriberto Delgado Jr <heribertodelgado92@gmail.com>
+Date:   Sun Oct 29 19:47:22 2023 -0700
+
+    Finish User Authentication
+
+commit 6173e5ee342d440676db3ec789929171c68b4fa2
+Author: Heriberto Delgado Jr <heribertodelgado92@gmail.com>
+Date:   Sun Oct 29 19:04:38 2023 -0700
+
+    Add date fns and style delete button
+
+commit 61ce57389a82012d67389cadf675efb66729141c
+Author: Heriberto Delgado Jr <heribertodelgado92@gmail.com>
+Date:   Sun Oct 29 18:49:21 2023 -0700
+
+    Fixing submit form errors
+
+commit f878fe08dd2e467dad43f68fba9542fd3cbb6946
+Author: Heriberto Delgado Jr <heribertodelgado92@gmail.com>
+Date:   Sun Oct 29 18:25:49 2023 -0700
+
+    Add delete function
+
+commit 662c289db07962d3d500dbd3152aac1171d2adb2
+Author: Heriberto Delgado Jr <heribertodelgado92@gmail.com>
+Date:   Sat Oct 28 11:32:01 2023 -0700
+
+    Adding hook and context to frontend
+
+commit a0f232362aa769b94dc36ac1871b20212669029d
+Author: Heriberto Delgado Jr <heribertodelgado92@gmail.com>
+Date:   Fri Oct 27 23:20:54 2023 -0700
+
+    Getting form set up
+
+commit 180e6a65e6c67551d2615b81115b5d09865261f2
+Author: Heriberto Delgado Jr <heribertodelgado92@gmail.com>
+Date:   Fri Oct 27 22:39:32 2023 -0700
+
+    Fetching data from backend
+
+commit 37ba478159183a5730914d624430efbd5068c984
+Author: Heriberto Delgado Jr <heribertodelgado92@gmail.com>
+Date:   Wed Oct 25 20:59:47 2023 -0700
+
+    Setting up Frontend/React
+
+commit 05ae3f7f500ebe84773f1e87f218bf821dfab99d
+Author: Heriberto Delgado Jr <heribertodelgado92@gmail.com>
+Date:   Wed Oct 25 19:18:51 2023 -0700
+
+    Establish routes and controllers/API/Endpoints
+
+commit 7bd4c284352847c85a2a3a355e417e1e78859df8
+Author: Heriberto Delgado Jr <heribertodelgado92@gmail.com>
+Date:   Mon Oct 23 20:29:34 2023 -0700
+
+    Adding controllers
+
+commit 2c969e422658a786e63bf3b2ab864a2d9f837aae
+Author: Heriberto Delgado Jr <heribertodelgado92@gmail.com>
+Date:   Mon Oct 23 19:55:01 2023 -0700
+
+    Testing POSTMAN routes with MongoDB
+
+commit 8e805a94eb9b9ab90e4b118159a8cd994114c491
+Author: Heriberto Delgado Jr <heribertodelgado92@gmail.com>
+Date:   Mon Oct 23 19:35:58 2023 -0700
+
+    Connecting to MongoDB
+
+commit 0bcad3aa6a16e017ea76a360b635a15201be919a
+Author: Heriberto Delgado Jr <heribertodelgado92@gmail.com>
+Date:   Mon Oct 23 18:55:39 2023 -0700
+
+    Testing routes
+
+commit ac4e48e280d88294a2b9abc6d7a6103037a5a91f
+Author: Heriberto Delgado Jr <heribertodelgado92@gmail.com>
+Date:   Mon Oct 23 18:47:04 2023 -0700
+
+    Add routes
+
+commit 89cdb31dc2b5c036cd355ed1dc9eb103744a36fa
+Author: Heriberto Delgado Jr <heribertodelgado92@gmail.com>
+Date:   Mon Oct 23 18:27:26 2023 -0700
+
+    Backend setup
+
+commit bbb08edd462141224cadf931ff3c65fdd15d066d
+Author: Heriberto Delgado Jr <heribertodelgado92@gmail.com>
+Date:   Mon Oct 23 18:27:03 2023 -0700
+
+    first commit
