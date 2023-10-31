@@ -32,3 +32,5 @@ Hopefully in the future developement of this app users will be able to interact 
 
 Heriberto Delgado Frank Ortiz Jaylin Manuel
 
+static frontend https://my-fitness-tracker-1.onrender.com
+back-end https://my-fitness-tracker.onrender.com

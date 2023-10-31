@@ -1,14 +1,16 @@
 const Workout = require('../models/workoutModel')
 const mongoose = require('mongoose')
 
-// Get all workouts
+// get all workouts
 const getWorkouts = async (req, res) => {
-    const workouts = await Workout.find({}).sort({ createdAt: -1 })
+    const user_id = req.user._id
+
+    const workouts = await Workout.find({ user_id }).sort({ createdAt: -1 })
 
     res.status(200).json(workouts)
 }
 
-// Get a single workout
+// get a single workout
 const getWorkout = async (req, res) => {
     const { id } = req.params
 
@@ -26,7 +28,7 @@ const getWorkout = async (req, res) => {
 }
 
 
-// Create new workout
+// create new workout
 const createWorkout = async (req, res) => {
     const { title, load, reps } = req.body
 
@@ -45,17 +47,17 @@ const createWorkout = async (req, res) => {
         return res.status(400).json({ error: 'Please fill in all the fields', emptyFields })
     }
 
-    // Add doc to DB
+    // add doc to db
     try {
-        const workout = await Workout.create({ title, load, reps })
+        const user_id = req.user._id
+        const workout = await Workout.create({ title, load, reps, user_id })
         res.status(200).json(workout)
     } catch (error) {
         res.status(400).json({ error: error.message })
     }
 }
 
-
-// Delete a workout
+// delete a workout
 const deleteWorkout = async (req, res) => {
     const { id } = req.params
 
@@ -66,14 +68,13 @@ const deleteWorkout = async (req, res) => {
     const workout = await Workout.findOneAndDelete({ _id: id })
 
     if (!workout) {
-        return res.status(404).json({ error: 'No such workout' })
+        return res.status(400).json({ error: 'No such workout' })
     }
 
     res.status(200).json(workout)
-
 }
 
-// Update a workout
+// update a workout
 const updateWorkout = async (req, res) => {
     const { id } = req.params
 
@@ -85,9 +86,13 @@ const updateWorkout = async (req, res) => {
         ...req.body
     })
 
-    res.status(200).json(workout)
+    if (!workout) {
+        return res.status(400).json({ error: 'No such workout' })
+    }
 
+    res.status(200).json(workout)
 }
+
 
 module.exports = {
     getWorkouts,
@@ -95,4 +100,4 @@ module.exports = {
     createWorkout,
     deleteWorkout,
     updateWorkout
-} 
+}
